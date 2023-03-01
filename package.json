@@ -1,13 +1,11 @@
 {
-  "name": "week5",
+  "name": "week6",
   "version": "1.0.0",
   "description": "",
-  "main": "./Queue.ts",
+  "main": "./src/myPromiseDotAll.ts",
   "scripts": {
     "test": "jest",
-    "test:stack": "jest Stack",
-    "test:queue": "jest Queue",
-    "test:linkedlist": "jest LinkedList",
+    "test:promise": "jest myPromiseDotAll",
     "compile": "tsc"
   },
   "keywords": [],

@@ -1,4 +1,4 @@
-import myPromiseDotAll from "../src/MyPromiseDotAll";
+import myPromiseDotAll from "../src/myPromiseDotAll";
 
 // const myPromiseDotAll = Promise.all.bind(Promise);
 
