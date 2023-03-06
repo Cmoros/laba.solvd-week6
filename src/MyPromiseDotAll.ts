@@ -1,5 +1,8 @@
+const checkIsIterable = <T>(toCheck: any): toCheck is Iterable<T> =>
+  typeof toCheck[Symbol.iterator] === "function";
+
 const myPromiseDotAll = <T>(iterable: Iterable<Promise<T>>): Promise<T[]> => {
-  if (typeof iterable[Symbol.iterator] !== "function") {
+  if (!checkIsIterable(iterable)) {
     throw new TypeError(
       "Input is not iterable. Please provide an iterable object."
     );
