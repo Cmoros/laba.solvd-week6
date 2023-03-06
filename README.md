@@ -1,4 +1,4 @@
-# Week 2 Homework
+# Week 6 Homework
 
 ### Laba.Solvd Nodejs Course
 
